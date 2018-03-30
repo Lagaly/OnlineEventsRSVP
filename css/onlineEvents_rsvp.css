@@ -1,0 +1,212 @@
+
+/* GLOBAL STYLES */
+body {
+	position: relative;
+	color: #2d2d2d;
+	font-weight: 100;
+	background-color: #F5F5F5;
+}
+.thick {
+	font-weight: 600;
+}
+.display-3 {
+	font-size: 2rem;
+}
+.panel {
+	color: #2d2d2d;
+	background-color: #fff;
+	padding: 32px 40px;
+	border-radius: 6px;
+	border: solid 1px #eaeaea;
+	margin-bottom: 1.5rem;
+}
+.panel h4 {
+	margin-bottom: 20px;
+}
+.panel h5 {
+	margin-top: 40px;
+	margin-bottom: 12px;
+}
+.navbar-brand {
+	padding: 0;
+    margin: 15px;
+}
+.navbar {
+	padding: 0;
+}
+.btn {
+	background-color: #fff;
+    background-image: none;
+    border: 2px solid #085ff7;
+    color: #085ff7;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 4px 1.5rem;
+    min-height: 35px;
+    min-width: 100px;
+}
+.btn-apply:hover {
+	color: #1497ff;
+    background-color: #fff;
+    border-color: #1497ff;
+}
+#job-summary .btn-apply {
+	margin-bottom: 12px;
+}
+/* GLOBAL STYLES END */
+
+/* RATING */
+.company-rating {
+	margin: 8px 0;
+}
+.fa-star {
+	color: #fda626;
+}
+/* RATING END */
+
+/* RSVP PANEL */
+.rsvp-panel {
+	width: 360px;
+	position: absolute;
+}
+.rsvp-panel-mobile {
+	display: none;
+}
+.rsvp-panel, .rsvp-panel-mobile {
+	text-align: center;
+    z-index: 20;
+    -webkit-box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.15);
+}
+@media only screen and (max-width: 1199px) {
+	.rsvp-panel {
+		width: 300px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.rsvp-panel {
+		display: none;
+	}
+	.rsvp-panel-mobile {
+		display: block;
+	}
+}
+@media only screen and (max-width: 575px) {
+	.rsvp-panel-mobile {
+		margin: 0 15px;
+	}
+}
+.company-info {
+	margin-bottom: 20px;
+}
+.company-logo img {
+	width: 80%;
+	max-width: 300px;
+	height: auto;
+	margin-bottom: 20px;
+}
+.jumbotron .legal p {
+	font-size: 0.25rem;
+	opacity: 0.65;
+}
+.btn-rsvp {
+	color: #fff;
+	background-color: #2164F3;
+	margin: 0 0 20px 0;
+	width: 100%;
+}
+.btn-rsvp:hover {
+	background-color: #1497ff;
+    border-color: #1497ff;
+    color: #fff;
+    text-decoration: none;
+}
+/*RSVP PANEL END */
+
+/* COUNTDOWN TIMERS */
+.countdown-banner {
+	color: #fff;
+	background-color: #2164F3;
+	text-align: center;
+	padding: 8px 0;
+}
+.countdown-box {
+	color: #ff695f;
+	margin-top: 12px;
+}
+/* COUNTDOWN TIMERS END */
+
+/* NAVBAR */
+.bg-light {
+	background-color: #fff!important;
+	border-bottom: solid 1px #eaeaea;
+}
+/* NAVBAR END */
+
+/* SUBNAV */
+#subnav nav {
+	margin-left: auto;
+    margin-right: auto;
+    padding: 8px 0;
+    font-weight: 600;
+}
+#subnav .nav-link:hover {
+	color: #fff;
+	background-color: #2164F3;
+}
+/* SUBNAV END */
+
+/* JUMBOTRON */
+.jumbotron {
+	color: #fff;
+	border-radius: 0;
+	background-color: #373E4B;
+	margin-bottom: 1.5rem;
+	padding: 2rem 0;
+}
+.jumbotron p {
+	font-size: 1.25rem;
+}
+.host-avatar img {
+	border-radius: 50%;
+}
+.host-info p {
+	font-size: 1rem;
+}
+.host-info p, .host-info h5 {
+	margin-bottom: 4px;
+}
+@media only screen and (max-width: 991px) {
+	.jumbotron {
+		text-align: center;
+	}
+}
+/* JUMBOTRON END */
+
+/* HOW IT WORKS */
+#how-it-works .row {
+	text-align: center;
+}
+/* HOW IT WORKS END */
+
+/* COMPANY INFO */
+
+/* COMPANY INFO END */
+
+/* JOB INFO */
+
+/* JOB INFO END */
+
+
+/*
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+*/
